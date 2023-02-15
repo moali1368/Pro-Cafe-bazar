@@ -1,0 +1,169 @@
+@media screen and (max-width: 639.98px) {
+    .Breadcrumb__list-item>* {
+        color: #2a2a2a;
+        font-size: .75rem;
+    } 
+    .Breadcrumb__list-item>* {
+        display: inline-block;
+        height: 1.6rem;
+        line-height: 1.6rem;
+        font-weight: 400;
+        margin: 0;
+        padding: 0 0.7rem;
+    }
+    .SimpleAppItem--carousel {
+        width: calc(24vw - 1rem);
+        max-width: calc(24vw - 1rem);
+    }
+    .CategoryList {
+        padding: 0.5rem 0;
+        margin: -0.5rem; 
+    }
+    .CategoryList__item {
+        margin: 0;
+    }
+    .CategoryItem {
+        width: 100%;
+        max-width: 100%;
+        border: 0;
+        background-color: initial;
+    }
+    .mobile-full-width {
+        width: 100vw;
+        position: relative;
+        left: 50%;
+        right: 50%;
+        margin-left: -50vw;
+        margin-right: -50vw;
+    }
+    .Box {
+        background: none;
+        box-shadow: none;
+        border: 0;
+    }
+
+    .SimpleAppItem--carousel {
+        width: 100px;
+        min-width: 100px;
+    }
+
+    .toaster {
+        align-items: stretch;
+        bottom: 0;
+        left: 0;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    .container {
+        max-width: 600px;
+    }
+    .Breadcrumb__list-item:last-child>* {
+        color: #2a2a2a;
+    }
+    .SimpleAppItem--carousel {
+        width: 110px;
+        min-width: 110px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .Navbar__container {
+        box-shadow: none;
+        border-bottom: 1px solid #e5e7f0;
+    }
+    .Navbar__content {
+        height: 56px;
+    }
+    .container {
+        max-width: 1000px;
+    }
+    .Navbar .only-desktop {
+        display: none;
+    }
+    .SearchField {
+        flex-grow: 1;
+        width: 100%;
+    }
+    .SearchField__body {
+        position: fixed;
+        left: 0;
+        top: 55px;
+        width: 100%;
+        transform: none!important;
+        max-width: 100%;
+        right: 0;
+        max-height: calc(100% - 56px);
+        height: calc(100% - 56px);
+        box-shadow: none;
+        border-radius: 0;
+        z-index: 3;
+    }
+    .Breadcrumb:not(.Breadcrumb--force-show) {
+        display: none;
+    }
+    .SimpleAppItem--carousel {
+        width: calc(16vw - 1rem);
+        max-width: calc(16vw - 1rem);
+    }
+    .Promo {
+        width: 80vw;
+    }
+    .CategoryList {
+        padding: 0.5rem;
+    }
+    .CategoryItem {
+        width: calc(50% - 1rem);
+        max-width: calc(50% - 1rem);
+    }
+    .footer {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        max-width: 1120px;
+    }
+    .Navbar .only-mobile {
+        display: none;
+    }
+    .Navbar__content {
+        height: 68px;
+    }
+    .logo {
+        display: flex;
+    }
+    .Tabs {
+        display: flex;
+    }
+    .Box {
+        display: flex;
+    }
+    .SimpleAppItem--carousel {
+        width: 120px;
+        max-width: 120px;
+    }
+    .Promo {
+        width: 45vw;
+    }
+    .CategoryList {
+        padding: 0.5rem;
+    }
+    .CategoryItem {
+        width: calc(33.33% - 1rem);
+        max-width: calc(33.33% - 1rem);
+    }
+    .collapsible {
+        position: relative;
+    }
+    .BottomNavbar {
+        display: none;
+    }
+    .toaster {
+        align-items: flex-end;
+        left: 2rem;
+    }
+}
+
